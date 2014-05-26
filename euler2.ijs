@@ -16,3 +16,7 @@ z
 NB.sums the even fibonacci numbers
 sumeven=:verb def '+/((2|(foo y))=0)#(foo y)'
 sumeven 4e6
+
+NB. Another solution (5/26/2014)
++/(#~ 0=2&|) (-&2 +&$: -&1)^:(1&<)"0 M. i.34
+
